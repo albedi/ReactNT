@@ -1,0 +1,11 @@
+export const SET_ERRORMS = "Inicio|Set error message";
+export const SET_LOADING = "Inicio|Set Loading status";
+export const SET_TOFINDV = "Inicio|Set Flag to find values";
+export const SET_ITEMVAL = "Inicio|Set Item currency values";
+export const FND_CURRVAL = "Inicio|Find Currency Values";
+export const GET_CATEGORIES = "Get Categories List";
+export const SET_CATEGORIES = "Set Categories List";
+export const GET_MESSAGES = "Get Messages List";
+export const GET_ALL_MESSAGES = "Get Messages List";
+export const SET_MESSAGES = "Set Messages List";
+export const POST_MESSAGE = "Post Message Item";

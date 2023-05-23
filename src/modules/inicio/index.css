@@ -1,0 +1,91 @@
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.header {
+  color: whitesmoke;
+  background: black;
+  border-bottom: 2px solid darkgray;
+}
+
+.header div.col-auto {
+  padding: 0px;
+}
+
+.myName {
+  font-size: 25px;
+  text-align: left;
+  line-height: 21px;
+  padding: 10px 0px;
+}
+.myName b {
+  font-size: 20px;
+}
+
+.errorRow {
+  font-size: 10px;
+  color: darkred;
+  padding-top: 10px;
+}
+
+.title_element{
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background: lightyellow;
+  color: darkred;
+  border-bottom: 1px solid darkred;
+}
+
+.submitButton{
+  padding-top: 20px;
+}
+
+.log_history{
+  font-size: 20;
+  color: darkred;
+  border-bottom: 1px solid darkred;
+  margin-top: 30px;
+}
+
+.log_history_row{
+  color: #333;
+  border-bottom: 1px solid #FFF;
+}
+
+.log_history_row.Sports{
+  background: #DDF;
+}
+
+.log_history_row.Finance{
+  background: #FDD;
+}
+
+.log_history_row.Movies {
+  background: #DFD;
+}
+
+.log_history_row .id{
+  width: 50px;
+  text-align: right;
+}
+
+.log_history_row .cat{
+  width: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
